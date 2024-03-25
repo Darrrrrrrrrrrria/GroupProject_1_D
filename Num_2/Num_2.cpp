@@ -27,7 +27,7 @@ int main() {
 		s = 1; p = 0; r = 0;
 		for (i = 0; i < n; i++)
 		{
-			e = m[j][i];
+			e = m[i][j];
 			p = m[j][i];
 			s *= p;
 			r += e;
@@ -41,5 +41,5 @@ int main() {
 	}
 	if (q != 0)
 		cout << "yes" << endl;
-	return 1;
+	return 0;
 }
