@@ -46,11 +46,11 @@ int main() {
 		if ((s != fact) || (r != sum))
 		{
 			q = 0;
-			cout << "No" << endl;
+			cout << "no" << endl;
 			break;
 		}
 	}
 	if (q != 0)
-		cout << "Yes" << endl;
+		cout << "yes" << endl;
 	return 1;
 }
